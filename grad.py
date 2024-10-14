@@ -100,7 +100,7 @@ def launch_browser_with_proxy(proxy_host, proxy_port, proxy_user, proxy_pass):
     options.add_argument('--disable-gpu')
     options.add_argument('--no-sandbox')
     options.add_argument("--disable-notifications")
-    options.add_argument('--headless')
+    #options.add_argument('--headless')
     driver = uc.Chrome(options=options)
     time.sleep(5)
     driver.switch_to.window(driver.window_handles[0])
