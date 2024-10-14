@@ -118,11 +118,11 @@ def launch_browser_with_proxy(proxy_host, proxy_port, proxy_user, proxy_pass):
 
     email_input = wait.until(
         EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/div[2]/div/div/div/div[2]/div[1]/input')))
-    email_input.send_keys("ЛОГИН")
+    email_input.send_keys("starboyvn11111@gmail.com")
 
     password_input = wait.until(
         EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/div[2]/div/div/div/div[2]/div[2]/span/input')))
-    password_input.send_keys("ПАРОЛЬ")
+    password_input.send_keys("Khoingu113")
 
     login_button = wait.until(
         EC.element_to_be_clickable((By.XPATH, '/html/body/div[1]/div[2]/div/div/div/div[4]/button[1]')))
